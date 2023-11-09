@@ -1,0 +1,141 @@
+:root {
+  --header-height: 4rem;
+
+  --first-color: hsl(355, 70%, 54%);
+  --first-color-dark: hsl(355, 70%, 40%);
+  --body-color: hsl(355, 20%, 12%);
+  --container-color: hsl(355, 20%, 16%);
+  --title-color: hsl(355, 0%, 95%);
+  --text-color: hsl(355, 0%, 75%);
+  --color-star-dark: rgb(255, 166, 0);
+  --color-star-light: linear-gradient(109.6deg, rgba(255, 219, 47, 1) 11.2%, rgba(244, 253, 0, 1) 100.2%);
+
+  --body-font: 'Rubik', sans-serif;
+  --h1-font-size: 2.4rem;
+  --h2-font-size: 1.8rem;
+  --h3-font-size: 1.4rem;
+  --normal-font-size: 1.1rem;
+  --small-font-size: 0.95rem;
+  --tiny-font-size: 0.7rem;
+
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+}
+body{
+font-family: monospace;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--body-color);
+    height: 100vh;
+    overflow: hidden;
+}
+
+#anime {
+    font-size: 4rem;
+    background: url('https://i.ibb.co/89Cf3dm/text-bg.png') no-repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: moveBg 90s linear infinite;
+    -webkit-animation: moveBg 90s linear infinite;
+  }
+  
+  /* Text Background Animation */
+  @keyframes moveBg {
+    0% {
+      background-position: 0% 30%;
+    }
+  
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  #message {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #message div {
+    padding: 20px;
+    border: 1px #fff solid;
+    border-radius: 10px;
+    background: #000;
+    opacity: 0.7;
+    margin: 5px;
+    background: #17a2b8;
+  
+}  
+  
+  #message span {
+    display: block;
+    font-size: 25px;
+  }
+  
+  @media (max-width: 650px) {
+    #message {
+      font-size: 30px;
+      flex-direction: column;
+    }
+  
+    #message div {
+      display: none;
+    }
+  
+    #message div:first-child {
+      display: block;
+      width: 80%;
+      padding: 10px;
+    }
+  }
+  
+  
+  @media (max-height: 600px) {
+    img {
+      width: 20%;
+    }
+  
+    p {
+      display: none;
+    }
+  }
+  
+  @media (max-height: 400px) {
+     img {
+      padding-bottom: 30px;
+    }
+    
+    h1 {
+      display: none;
+    }
+  }
+
+    .btn {
+      display: inline-block;
+      background-color: var(--first-color);
+      color: var(--title-color);
+      padding: 1.2rem 2.6rem;
+      border-radius: 2rem;
+      font-weight: var(--font-medium);
+      transition: 0.3s;
+      margin-top: 2rem;
+      text-decoration: none;
+    }
+  
+    .btn:hover {
+      background-color: var(--first-color-dark);
+    }
