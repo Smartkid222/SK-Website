@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- script  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js" defer></script>
+
+</head>
+<body>
+    <section>
+        <div class="text-center mt-10 mb-10 mx-8 md:mx-20 lg:mx-20  w-50%">
+            <h1 class="text-red-500 text-3xl">
+                1. What is the difference between map, filter, find and foreach?
+            </h1>
+            <h3 class="mb-5 mt-3 text-xl">
+                Ans: 'map()' executes the same code on every element in an array and returns a new array with the updated elements.
+
+                'filter()' checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.
+
+                'find()' returns only one match in an array. If in an array is more than one result, the function will return the first that has matched.
+
+                'forEach()' is used to execute the same code on every element in an array but does not change the array and it returns undefined.
+            </h3>
+
+            <h1 class="text-red-500 text-3xl">
+                2. What's the difference between Local Storage, Session Storage, and Cookies?
+            </h1>
+            <h3 class="mb-5 mt-3 text-xl">
+                Ans: The stored data in local storage is not deleted when the browser is closed. On the other hand session storage data is stored  only for the session and will be deleted when the browser is closed. And finally Cookies  data can be set to expire at a certain time.
+            </h3>
+
+            <h1 class="text-red-500 text-3xl">
+                3. What is the event loop in JavaScript and how does it work?
+            </h1>
+            <h3 class="mb-5 mt-3 text-xl">
+                Ans: The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading.
+                <br> <br>
+                In JavaScript, asynchronous functions are sent to the browser API for execution. The API then sends the function back to the event queue, which is continuously monitored by the event loop. The event loop adds functions from the event queue to the call stack.When the call stack is empty, the event loop adds the next function from the event queue to the call stack and executes it. This allows for asynchronous and non-blocking code execution, and ensures that the user interface remains responsive.
+
+            </h3>
+
+        </div>
+    </section>
+     
+    <hr>
+    <section>
+     
+        <div class="text-center mt-10 mx-8 md:mx-20 lg:mx-20  w-50%">
+
+            <h1 class="text-blue-500 text-4xl mb-8">
+                Extra Questions
+            </h1>
+
+            <h1 class="text-red-500 text-3xl">
+                1. What does the quizTimer function do?
+            </h1>
+            <h3 class="mb-4 mt-3 text-xl">
+                Ans: The quizTimer function starting and updating the countdown timer.It has one parameter that is used to stop the timer if it's set to true.It updates the HTML of an element with the id 'count' to display the remaining time in minutes and seconds. If the 'dismiss' parameter is set to true, the 'setInterval' method is stopped.
+            </h3>
+
+            <h1 class="text-red-500 text-3xl">
+                2. What does the chooseQuiz function do? 
+            </h1>
+            <h3 class="mb-4 mt-3 text-xl">
+                Ans: The 'chooseQuiz' function updates the answers array with the user's input for a specific quiz question, and then displays the updated answers array to the user.
+            </h3>
+
+        </div>
+    </section>
+
+    <!-- script  -->
+    <script src="./blogPage.js"></script>
+</body>
+</html>
