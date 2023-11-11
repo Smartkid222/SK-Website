@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Things I like</title>
+  <meta name="title" content="Annie - Web Developer Based on Los Angeles">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" href="./assets/images/e.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+    <img src="./assets/images/e.png" alt="">
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/a.png" width="151" height="28" alt="Annie home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="label-lg navbar-link has-after active">Games</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./service.html" class="label-lg navbar-link has-after">Quiz</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./portfolio.html" class="label-lg navbar-link has-after">Movies</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./contact.html" class="label-lg navbar-link has-after">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="./contact.html" class="btn btn-primary">Back to Home</a>
+
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">👋, My name is SK</p>
+
+            <h1 class="headline-lg">I'm a Web-Developer</h1>
+
+            <p class="hero-text body-md">
+              Based in Lagos, Nigeria.
+            </p>
+
+            <a href="#about" class="btn btn-primary">Let's Start</a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/d.png" width="680" height="645"
+              alt="a guy with orange hoodie and no face" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CLIENT
+      -->
+
+      <section class="client"  aria-label="Trusted client">
+        <div class="container">
+      
+          <ul class="slider">
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+          </ul>
+      
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about me">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/3.png" width="580" height="554" loading="lazy"
+              alt="Annie, the blonde, dressed in a black tops with a smile on her face" class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <div class="wrappers">
+              <div class="game-details">
+                <span class="score">Score: 0</span>
+                <span class="high-score">High Score: 0</span>
+              </div>
+              <div class="play-board"></div>
+              <div class="controls">
+                <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+                <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+                <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+                <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+              </div>
+            </div>
+
+            <div class="wrapper">
+              <a href="#st" class="btn btn-primary">Next</a>
+
+              <a href="#about" class="btn btn-secondary">Snake Game</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+              - #CLIENT
+            -->
+      
+      <section class="client" aria-label="Trusted client">
+        <div class="container">
+      
+          <ul class="slider">
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+          </ul>
+      
+        </div>
+      </section>
+      
+      
+      
+      
+      
+      <!-- 
+              - #ABOUT
+            -->
+      
+      <section class="section about" id="st" aria-label="about me">
+        <div class="container">
+
+
+          <div class="about-content">
+          
+            <section class="containers">
+              <div class="result_field">
+                <div class="result_images">
+                  <span class="user_result">
+                    <img src="./assets/images/rock.png" alt="" />
+                  </span>
+                  <span class="computers_result">
+                    <img src="./assets/images/rock.png" alt="" />
+                  </span>
+                </div>
+                <div class="result">Let's Play!!</div>
+              </div>
+            
+              <div class="option_images">
+                <span class="option_image">
+                  <img src="./assets/images/rock.png" alt="" />
+                  <p>Rock</p>
+                </span>
+                <span class="option_image">
+                  <img src="./assets/images/paper.png" alt="" />
+                  <p>Paper</p>
+                </span>
+                <span class="option_image">
+                  <img src="./assets/images/scissors.png" alt="" />
+                  <p>Scissors</p>
+                </span>
+              </div>
+            </section>
+          
+            <div class="wrapper">
+              <a href="#skill-label" class="btn btn-primary">Next</a>
+          
+              <a href="#st" class="btn btn-secondary">Rock, Papper, Scissors</a>
+            </div>
+          
+          </div>
+      
+          <figure class="about-banner">
+            <img src="./assets/images/1.png" width="580" height="554" loading="lazy"
+              alt="Annie, the blonde, dressed in a black tops with a smile on her face" class="w-100">
+          </figure>
+      
+        </div>
+      </section>
+
+
+      <section class="client" aria-label="Trusted client">
+        <div class="container">
+      
+          <ul class="slider">
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+            <li class="slider-item">
+              <img src="./assets/images/a.png" width="130" height="40" alt="clients" class="w-100">
+            </li>
+      
+          </ul>
+      
+        </div>
+      </section>
+
+
+
+      
+
+
+      <!-- 
+        - #SKILL
+      -->
+
+      <section class="section skill" aria-labelledby="skill-label">
+        <div class="container">
+
+          <figure class="skill-banner">
+            <img src="./assets/images/6.png" width="581" height="657" loading="lazy"
+              alt="Annie, the blonde, dressed in a green hoodie with a smile on her face" class="w-100">
+          </figure>
+
+          <div class="skill-content">
+
+            <h2 class="section-title headline-md" id="skill-label">Brain Stom</h2>
+
+            <ul class="skill-list">
+
+              <li>
+                <a href="./games/scramble/index.html" class="card card-sm" style="background-color: hsl(226, 38%, 72%)">
+
+                  <div class="card-media">
+                    <i class="fa fa-scribd" aria-hidden="true"></i>
+                  </div>
+
+                  <h2 class="card-title">Scramble</h2>
+
+                </a>
+              </li>
+
+              <li>
+                <a href="./games/gass/index.html" class="card card-sm" style="background-color: hsl(41, 99%, 64%)">
+
+                  <div class="card-media">
+                    <i class="fa fa-lightbulb" aria-hidden="true"></i>
+                  </div>
+
+                  <h2 class="card-title">Guess the Word</h2>
+
+                </a>
+              </li>
+
+              <li>
+                <a href="./games/cards/index.html" class="card card-sm" style="background-color: hsl(19, 97%, 85%)">
+
+                  <div class="card-media">
+                    <i class="fa fa-smile" aria-hidden="true"></i>
+                  </div>
+
+                  <h2 class="card-title">Marching Cards</h2>
+
+                </a>
+              </li>
+
+              <li>
+                <a href="./games/Memory Cards Game [Demo 2]/index.html" class="card card-sm" style="background-color: hsl(221, 100%, 79%)">
+
+                  <div class="card-media">
+                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                  </div>
+
+                  <h2 class="card-title">Memory Cards</h2>
+
+                </a>
+              </li>
+
+              <li>
+                <a href="./games/tac/index.html" class="card card-sm" style="background-color: hsl(76, 39%, 72%)">
+
+                  <div class="card-media">
+                    <i class="fa fa-gavel" aria-hidden="true"></i>
+                  </div>
+
+                  <h2 class="card-title">Tic Tac Toe</h2>
+
+                </a>
+              </li>
+
+              <li>
+                <a href="./games/typing/index.html" class="card card-sm" style="background-color: hsl(245, 100%, 90%)">
+
+                  <div class="card-media">
+                    <i class="fa fa-keyboard" aria-hidden="true"></i>
+                  </div>
+
+                  <h2 class="card-title">Typing Speed</h2>
+
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+          <h2 class="title-lg">Intrested working with me?</h2>
+
+          <a href="./contact.html" class="btn btn-tertiary">Contact Now</a>
+        </div>
+      </section>
+
+
+
+
+
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-pinterest"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+      <p class="text-center">&copy; 2022 copyright all right reserved</p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/game1.js"></script>
+  <script src="./assets/js/game1.js"></script>
+  <script src="./assets/js/game2.js"></script>
+  <script src="./assets/js/game3.js"></script>
+  <script src="./assets/js/words.js"></script>
+  
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
