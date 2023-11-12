@@ -4,12 +4,12 @@
 :root {
   --header-height: 4rem;
 
-  --first-color: hsl(355, 70%, 54%);
-  --first-color-dark: hsl(355, 70%, 40%);
-  --body-color: hsl(355, 20%, 12%);
+  --first-color: hsl(240, 1%, 17%);
+  --first-color-dark: hsl(0, 0%, 22%);
+  --body-color: hsl(0, 0%, 7%);
   --container-color: hsl(355, 20%, 16%);
   --title-color: hsl(355, 0%, 95%);
-  --text-color: hsl(355, 0%, 75%);
+  --text-color: hsl(45, 54%, 58%);
   --color-star-dark: rgb(255, 166, 0);
   --color-star-light: linear-gradient(109.6deg, rgba(255, 219, 47, 1) 11.2%, rgba(244, 253, 0, 1) 100.2%);
 
@@ -253,7 +253,7 @@ button {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--body-color);
+  background-color: hsla(240, 1%, 17%, 0.75);
   z-index: 100;
   transition: 0.3s;
 }
